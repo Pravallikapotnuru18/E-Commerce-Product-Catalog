@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="ShopHub - Responsive e-commerce product catalog with modern web technologies.">
+
+    <meta name="keywords"
+          content="ecommerce, products, shopping, online store, product catalog">
+
+    <meta name="author"
+          content="Potnuru Pravallika">
+
+    <meta name="theme-color"
+          content="#2563eb">
+
+    <title>ShopHub | E-Commerce Product Catalog</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header class="site-header">
+
+        <div class="container header-container">
+
+            <a href="#/"
+               class="logo"
+               aria-label="ShopHub Home">
+                Shop<span>Hub</span>
+            </a>
+
+
+            <nav class="main-nav"
+                 aria-label="Main navigation">
+
+                <a href="#/"
+                   data-route>
+                    Home
+                </a>
+
+                <a href="#/products"
+                   data-route>
+                    Products
+                </a>
+
+                <a href="#/cart"
+                   data-route>
+                    Cart
+                    <span id="cart-count">0</span>
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- Main Application -->
+
+    <main id="app"
+          class="main-content"
+          aria-live="polite">
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 ShopHub. All rights reserved.
+            </p>
+
+            <p>
+                Built with HTML, CSS and JavaScript.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
